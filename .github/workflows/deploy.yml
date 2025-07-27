@@ -1,0 +1,45 @@
+name: CI/CD Iris FastAPI with Kubernetes
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Authenticate to Google Cloud
+      uses: google-github-actions/auth@v2
+      with:
+        credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+    - name: Set up gcloud CLI
+      uses: google-github-actions/setup-gcloud@v2
+      with:
+        project_id: YOUR_PROJECT_ID
+        install_components: 'kubectl'
+
+    - name: Configure Docker for GCP
+      run: gcloud auth configure-docker us-central1-docker.pkg.dev
+
+    - name: Build Docker image
+      run: docker build -t iris-api .
+
+    - name: Tag Docker image
+      run: docker tag iris-api us-central1-docker.pkg.dev/focused-catfish-459803-m9/my-repo/iris-api:latest
+
+    - name: Push Docker image
+      run: docker push us-central1-docker.pkg.dev/focused-catfish-459803-m9/my-repo/iris-api:latest
+
+    - name: Get GKE credentials
+      run: gcloud container clusters get-credentials autopilot-cluster-1 --zone us-central1 --project focused-catfish-459803-m9
+
+    - name: Deploy to GKE
+      run: |
+        kubectl set image deployment/iris-api-deployment iris-api=us-central1-docker.pkg.dev/focused-catfish-459803-m9/my-repo/iris-api:latest
+

@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq
+|2,0,1753638055,,"wq"
 :q!
 |2,0,1753637508,,"q!"
-:wq
-|2,0,1753637276,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -54,34 +54,42 @@
 |3,0,9,1,1,0,1753635286,"  build-and-deploy:"
 
 # File marks:
-'0  7  0  ~/Dockerfile
-|4,48,7,0,1753637508,"~/Dockerfile"
-'1  1  0  ~/Dockerfile
-|4,49,1,0,1753637500,"~/Dockerfile"
+'0  45  0  ~/.github/workflows/deploy.yml
+|4,48,45,0,1753638055,"~/.github/workflows/deploy.yml"
+'1  7  0  ~/Dockerfile
+|4,49,7,0,1753637508,"~/Dockerfile"
 '2  1  0  ~/Dockerfile
 |4,50,1,0,1753637500,"~/Dockerfile"
-'3  45  0  ~/.github/workflows/deploy.yml
-|4,51,45,0,1753637492,"~/.github/workflows/deploy.yml"
-'4  17  74  ~/k8s-deployment.yaml
-|4,52,17,74,1753637471,"~/k8s-deployment.yaml"
-'5  30  4  ~/iris_fastapi.py
-|4,53,30,4,1753637276,"~/iris_fastapi.py"
-'6  17  74  ~/k8s-deployment.yaml
-|4,54,17,74,1753635552,"~/k8s-deployment.yaml"
-'7  1  39  ~/.github/workflows/deploy.yml
-|4,55,1,39,1753635488,"~/.github/workflows/deploy.yml"
+'3  1  0  ~/Dockerfile
+|4,51,1,0,1753637500,"~/Dockerfile"
+'4  45  0  ~/.github/workflows/deploy.yml
+|4,52,45,0,1753637492,"~/.github/workflows/deploy.yml"
+'5  17  74  ~/k8s-deployment.yaml
+|4,53,17,74,1753637471,"~/k8s-deployment.yaml"
+'6  30  4  ~/iris_fastapi.py
+|4,54,30,4,1753637276,"~/iris_fastapi.py"
+'7  17  74  ~/k8s-deployment.yaml
+|4,55,17,74,1753635552,"~/k8s-deployment.yaml"
 '8  1  39  ~/.github/workflows/deploy.yml
 |4,56,1,39,1753635488,"~/.github/workflows/deploy.yml"
-'9  45  0  ~/.github/workflows/deploy.yml
-|4,57,45,0,1753635296,"~/.github/workflows/deploy.yml"
+'9  1  39  ~/.github/workflows/deploy.yml
+|4,57,1,39,1753635488,"~/.github/workflows/deploy.yml"
 
 # Jumplist (newest first):
+-'  45  0  ~/.github/workflows/deploy.yml
+|4,39,45,0,1753638055,"~/.github/workflows/deploy.yml"
+-'  7  0  ~/Dockerfile
+|4,39,7,0,1753637508,"~/Dockerfile"
 -'  7  0  ~/Dockerfile
 |4,39,7,0,1753637508,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
 |4,39,1,0,1753637500,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
 |4,39,1,0,1753637500,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1753637500,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1753637500,"~/Dockerfile"
 -'  45  0  ~/.github/workflows/deploy.yml
 |4,39,45,0,1753637492,"~/.github/workflows/deploy.yml"
 -'  45  0  ~/.github/workflows/deploy.yml
@@ -98,6 +106,24 @@
 |4,39,1,39,1753637481,"~/.github/workflows/deploy.yml"
 -'  1  39  ~/.github/workflows/deploy.yml
 |4,39,1,39,1753637481,"~/.github/workflows/deploy.yml"
+-'  1  39  ~/.github/workflows/deploy.yml
+|4,39,1,39,1753637481,"~/.github/workflows/deploy.yml"
+-'  17  74  ~/k8s-deployment.yaml
+|4,39,17,74,1753637471,"~/k8s-deployment.yaml"
+-'  17  74  ~/k8s-deployment.yaml
+|4,39,17,74,1753637471,"~/k8s-deployment.yaml"
+-'  17  74  ~/k8s-deployment.yaml
+|4,39,17,74,1753637471,"~/k8s-deployment.yaml"
+-'  17  74  ~/k8s-deployment.yaml
+|4,39,17,74,1753637471,"~/k8s-deployment.yaml"
+-'  17  74  ~/k8s-deployment.yaml
+|4,39,17,74,1753637471,"~/k8s-deployment.yaml"
+-'  17  74  ~/k8s-deployment.yaml
+|4,39,17,74,1753637471,"~/k8s-deployment.yaml"
+-'  17  74  ~/k8s-deployment.yaml
+|4,39,17,74,1753637471,"~/k8s-deployment.yaml"
+-'  17  74  ~/k8s-deployment.yaml
+|4,39,17,74,1753637471,"~/k8s-deployment.yaml"
 -'  17  74  ~/k8s-deployment.yaml
 |4,39,17,74,1753637471,"~/k8s-deployment.yaml"
 -'  17  74  ~/k8s-deployment.yaml
@@ -146,6 +172,70 @@
 |4,39,30,4,1753637276,"~/iris_fastapi.py"
 -'  30  4  ~/iris_fastapi.py
 |4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  30  4  ~/iris_fastapi.py
+|4,39,30,4,1753637276,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
+-'  1  0  ~/iris_fastapi.py
+|4,39,1,0,1753637245,"~/iris_fastapi.py"
 -'  1  0  ~/iris_fastapi.py
 |4,39,1,0,1753637245,"~/iris_fastapi.py"
 -'  1  0  ~/iris_fastapi.py
@@ -186,98 +276,22 @@
 |4,39,17,74,1753635552,"~/k8s-deployment.yaml"
 -'  17  74  ~/k8s-deployment.yaml
 |4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  17  74  ~/k8s-deployment.yaml
-|4,39,17,74,1753635552,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  0  ~/k8s-deployment.yaml
-|4,39,1,0,1753635514,"~/k8s-deployment.yaml"
--'  1  39  ~/.github/workflows/deploy.yml
-|4,39,1,39,1753635488,"~/.github/workflows/deploy.yml"
--'  1  39  ~/.github/workflows/deploy.yml
-|4,39,1,39,1753635488,"~/.github/workflows/deploy.yml"
--'  1  39  ~/.github/workflows/deploy.yml
-|4,39,1,39,1753635488,"~/.github/workflows/deploy.yml"
--'  1  39  ~/.github/workflows/deploy.yml
-|4,39,1,39,1753635488,"~/.github/workflows/deploy.yml"
--'  1  39  ~/.github/workflows/deploy.yml
-|4,39,1,39,1753635488,"~/.github/workflows/deploy.yml"
--'  1  39  ~/.github/workflows/deploy.yml
-|4,39,1,39,1753635488,"~/.github/workflows/deploy.yml"
--'  1  39  ~/.github/workflows/deploy.yml
-|4,39,1,39,1753635488,"~/.github/workflows/deploy.yml"
--'  1  39  ~/.github/workflows/deploy.yml
-|4,39,1,39,1753635488,"~/.github/workflows/deploy.yml"
--'  1  39  ~/.github/workflows/deploy.yml
-|4,39,1,39,1753635488,"~/.github/workflows/deploy.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.github/workflows/deploy.yml
+	*	1753638053	0
+	"	45	0
+	^	45	0
+	.	24	44
+	+	1	40
+	+	44	134
+	+	37	82
+	+	34	90
+	+	40	127
+	+	41	0
+	+	44	125
+	+	24	44
 
 > ~/Dockerfile
 	*	1753637505	0
@@ -287,19 +301,6 @@
 	+	1	34
 	+	12	73
 	+	6	4
-
-> ~/.github/workflows/deploy.yml
-	*	1753637490	0
-	"	45	0
-	^	1	40
-	.	44	125
-	+	1	40
-	+	44	134
-	+	37	82
-	+	34	90
-	+	40	127
-	+	41	0
-	+	44	125
 
 > ~/k8s-deployment.yaml
 	*	1753637469	0
